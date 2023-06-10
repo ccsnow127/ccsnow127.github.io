@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
-Hello!👋 I am currently an MPhil student in Computer Science and Engineering at the  `Chinese University of Hong Kong, Shenzhen`. I have the privilege of working in the `CUSE Laboratory` under the co-supervision of `Prof. Pinjia He` and Prof. `Xiaoying Tang`. My research focuses on the application of Large Language Models to various tasks in software engineering, especially .
+Hello!👋 I am currently an MPhil student in Computer Science and Engineering at the  `Chinese University of Hong Kong, Shenzhen`. I have the privilege of working in the `CUSE Laboratory` under the co-supervision of `Prof. Pinjia He` and Prof. `Xiaoying Tang`. My research focuses on the application of Large Language Models to various tasks in software engineering, especially for comment analysis in smart contracts and automatic program repair. Most recently, I have been interested in studying cognition bias in Large Language Models, taking inspiration from psychological principles. 
 
 I am thrilled to share that I have been accepted into the Ph.D. program in Computer Science at `Virginia Tech`. I will be joining the `Seclab`, where I will be very fortunate to receive guidance from `Prof. Peng Gao`.
 
