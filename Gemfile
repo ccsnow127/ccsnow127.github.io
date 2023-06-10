@@ -19,6 +19,7 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'jekyll-include-cache'
+    gem "kramdown-parser-gfm"
 end
 group :other_plugins do
     gem 'feedjira'

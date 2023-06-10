@@ -11,9 +11,9 @@ profile:
   image: Me.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>🦄 B.E. at BJTU</p>
-    <p>🦄 Mphil at CUHKsz</p>
-    <p>🦄 Ph.D at VT</p>
+    <p>🦄 B.E. at BJTU_SE</p>
+    <p>🦄 Mphil at CUHKsz_CSE</p>
+    <p>🦄 Ph.D at VT_CS</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
