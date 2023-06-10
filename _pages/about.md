@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Current Mphil student@<a href="">CUHKsz</a>, Incoming Phd student@<a href="">Virginia Tech</a>.
+subtitle: Current Mphil student <a href="">@CUHKsz</a>, Incoming Phd student <a href="">@Virginia Tech</a>.
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 # <a href="https://github.com/alshedivat/al-folio">
 
