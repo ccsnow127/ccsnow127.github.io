@@ -11,19 +11,19 @@ profile:
   image: Me.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>🦄B.E. at BJTU_SE✨</p>
-    <p>🦄Mphil at CUHKsz_CSE✨</p>
-    <p>🦄Ph.D at VT_CS✨</p>
+    <p>🦄 B.E. at BJTU_SE✨</p>
+    <p>🦄 Mphil at CUHKsz_CSE✨</p>
+    <p>🦄 Ph.D at VT_CS✨</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
-selected_papers: true✨ # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
-Hello!👋 I am currently an MPhil student in Computer Science and Engineering at the  `Chinese University of Hong Kong, Shenzhen`. I have the privilege of working in the `CUSE Laboratory` under the co-supervision of `Prof. Pinjia He` and Prof. `Xiaoying Tang`. My research focuses on the application of Large Language Models.
+Hello!👋 I am currently an MPhil student in Computer Science and Engineering at the  `Chinese University of Hong Kong, Shenzhen`. I have the privilege of working in the `CUSE Laboratory` under the co-supervision of `Prof. Pinjia He` and Prof. `Xiaoying Tang`. My research focuses on the application of Large Language Models to various tasks in software engineering, especially .
 
 I am thrilled to share that I have been accepted into the Ph.D. program in Computer Science at `Virginia Tech`. I will be joining the `Seclab`, where I will be very fortunate to receive guidance from `Prof. Peng Gao`.
 
