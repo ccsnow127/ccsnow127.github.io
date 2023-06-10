@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: May 5, 2023 
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Our paper "Hue: A User-Adaptive Parser for Hybrid Logs" Has been under major revisions for ESEC/FSE 2023🥳

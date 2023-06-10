@@ -29,6 +29,6 @@ I am thrilled to share that I have been accepted into the Ph.D. program in Compu
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 In addition to my academic pursuits, I also enjoy playing sports and exploring the world. With over a decade of experience in tennis and badminton, I had the opportunity to lead both teams during my college years. Outside of courts, I find joy in wind-surfing, surfing, and scuba diving, allowing me to connect with the water and its wonders. Skiing is another hobby of mine, and I've had the pleasure of skiing in Sapporo, Japan, as well as the stunning peaks of Jungfraujoch, Switzerland. Along my travels, I've been fortunate to visit more than 30 countries, immersing myself in diverse cultures and creating cherished memories.
+<!-- 
 
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
