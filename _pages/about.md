@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: Current Mphil student at CUHKsz, Incoming Phd student at Virginia Tech.
+subtitle: Current Mphil student at <a href="">CUHKsz</a>, Incoming Phd student at <a href="">Virginia Tech</a>.
+# <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# <a href="https://github.com/alshedivat/al-folio">
 
 profile:
   align: right
