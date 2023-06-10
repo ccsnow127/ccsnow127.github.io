@@ -25,7 +25,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hello!👋 I am currently an MPhil student in Computer Science and Engineering at the  `Chinese University of Hong Kong, Shenzhen`. I have the privilege of working in the `CUSE Laboratory` under the co-supervision of `Prof. Pinjia He` and Prof. `Xiaoying Tang`. My research focuses on [insert a brief description of your research area or topic].
 
-I am thrilled to share that I have been accepted into the Ph.D. program in Computer Science at Virginia Tech. I will be joining the Seclab, where I will be very fortunate to receive guidance from `Prof. Peng Gao`.
+I am thrilled to share that I have been accepted into the Ph.D. program in Computer Science at `Virginia Tech`. I will be joining the `Seclab`, where I will be very fortunate to receive guidance from `Prof. Peng Gao`.
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 My research and interests are focued on 
