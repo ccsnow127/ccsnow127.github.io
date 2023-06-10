@@ -25,7 +25,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hello!👋 I am currently an MPhil student in Computer Science and Engineering at the  `Chinese University of Hong Kong, Shenzhen`. I have the privilege of working in the `CUSE Laboratory` under the co-supervision of `Prof. Pinjia He` and Prof. `Xiaoying Tang`. My research focuses on the application of Large Language Models to various tasks in software engineering, especially for comment analysis in smart contracts and automatic program repair. Most recently, I have been interested in studying cognition bias in Large Language Models, taking inspiration from psychological principles. 
 
-I am thrilled to share that I have been accepted into the Ph.D. program in Computer Science at `Virginia Tech` (Go Hokies!😆). I will be joining the `Seclab`, where I will be very fortunate to receive guidance from `Prof. Peng Gao`. My research will be focused on 
+I am thrilled to share that I have been accepted into the Ph.D. program in Computer Science at `Virginia Tech` (Go Hokies!😆). I will be joining the `Seclab`, where I will be very fortunate to receive guidance from `Prof. Peng Gao`. My research will be focused on Trustworthy AI, broadly ranging from robustness, privacy, explainability of NLP and GNNs, and also LLMs and chatbot security and privacy.
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 My research and interests are focued on 
