@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Welcome to My Home Page
+
 permalink: /
 subtitle: Current Mphil student <a href="">@CUHKsz</a>, Incoming Phd student <a href="">@Virginia Tech</a>.
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
