@@ -11,9 +11,9 @@ profile:
   image: Me.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>🦄 Computer and Information Engineering</p>
-    <p>🦄 The Chinese University of HongKong, Shenzhen</p>
-    <p>🦄 Shenzhen, China</p>
+    <p>🦄 B.E. at BJTU</p>
+    <p>🦄 Mphil at CUHKsz</p>
+    <p>🦄 Ph.D at VT</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
