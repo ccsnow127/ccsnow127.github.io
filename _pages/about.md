@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Current Mphil student at CUHKsz, Incoming Phd student at Virginia Tech.
 
 profile:
   align: right
