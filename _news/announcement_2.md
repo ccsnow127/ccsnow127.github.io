@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have submitted my first paper as first author "Charactering, Detecting and Correcting Natspec Violations in Smart Contracts" to `ASE 2023` 🤩
+<!-- I have submitted my first paper as first author "Charactering, Detecting and Correcting Natspec Violations in Smart Contracts" to `ASE 2023` 🤩 -->
