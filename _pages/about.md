@@ -19,13 +19,27 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+#### About Me
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a Ph.D. candidate of Computer Science at Virginia Tech, advised by Prof. Peng Gao. Previously, I was a reseach assistant at the Chinese Univeristy of Hong Kong, Shenzhen, advised by Prof. Pinjia He. I received my B.Eng. in Software Engineering from Beijing Jiaotong University.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am broadly interested in large language model, security and software engineering. My research mainly focuses on the application and customization of LLMs into knowledge-intensive and complex applications in security and software engineering (e.g., CTI analysis, SOC automation, penetration testing, etc.). The following are some projects that I am currently working on:
+
+- `Cyber threat intelligence` extraction and security knowledge graph construction framework empowered by LLMs.
+
+  - Under revision
+
+- `Automatic penetration testing` framework incoporating multiple knowledge-augmented LLM-based agents with memory and learning mechanism. Also a benchmark environment for systematically evaluating the performance of pentest agents.
+
+  - Under development and <u>seeking cooperation</u>, drop me a message if you are interested!
+
+- `Cloud SOC automation` framework built upon domain-data finetuned LLMs.
+  - Under development, ETC: 3/2025
 
 #### Education & Experience
 
-- 1
-- 2
+- Ph.D. in Computer Science, Virginia Tech, **12/2023 - present**
+- Research assistant at Chinese University of Hong Kong, Shenzhen campus, **12/2022-11/2023**
+- Research intern at Huawei PaaS Lab, Shenzhen, **6/2022-12/2022**
+- Software engineering intern at Tencent, Beijing, **6/2020-9/2020**
+- B.Eng. in Software Engineering, Beijing Jiaotong University, **9/2018-6/2022**
