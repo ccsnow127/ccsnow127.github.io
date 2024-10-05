@@ -37,7 +37,9 @@ I am broadly interested in large language model, security and software engineeri
 #### Education & Experience
 
 - Ph.D. in Computer Science, Virginia Tech, **01/2024 - present**
-- MPhil at Chinese University of Hong Kong, Shenzhen campus, **09/2022-12/2023**
-- Research intern at Huawei PaaS Lab, Shenzhen, **6/2022-12/2022**
-- Software engineering intern at Tencent, Beijing, **6/2020-9/2020**
+- Community contributor, <a href='https://llama.family/'>Llama Family</a>, **12/2023-present**
+- MPhil in Computer and Information Engineering, Chinese University of Hong Kong (Shenzhen), **09/2022-12/2023**
+<!-- - Research intern at Huawei PaaS Lab, Shenzhen, **6/2022-12/2022** -->
+- Algorithm intern, <a href='https://www.atomecho.cn/'>AtomEcho</a>, Beijing, **6/2023-12/2023**
+<!-- - Software engineering intern at Tencent, Beijing, **6/2020-9/2020** -->
 - B.Eng. in Software Engineering, Beijing Jiaotong University, **9/2018-6/2022**
