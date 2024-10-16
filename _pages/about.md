@@ -28,7 +28,7 @@ I am broadly interested in large language model, security and software engineeri
 - `Cyber threat intelligence` extraction and security knowledge graph construction framework empowered by LLMs.
   - Under revision
 
-- `Automatic penetration testing` framework incoporating multiple knowledge-augmented LLM-based agents with memory and learning mechanism. Also a benchmark environment for systematically evaluating the performance of pentest agents.
+- `Automatic penetration testing` framework incoporating RL-guided LLM-based agents with memory and learning mechanism. Also a benchmark environment for systematically evaluating the performance of pentest agents.
   - Under development and <u>seeking cooperation</u>, drop me a message if you are interested!
 
 - `Cloud SOC automation` framework built upon domain-data finetuned LLMs.
