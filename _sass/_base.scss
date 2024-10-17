@@ -1112,6 +1112,12 @@ nav[data-toggle="toc"] {
   width: 100%;
 }
 
+.fixed-height-image {
+  height: 300px; // Set your desired height
+  object-fit: cover; // Ensures the image covers the area while maintaining aspect ratio
+  width: 100%; // Ensures the image takes the full width of the container
+}
+
 swiper-container {
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);
