@@ -21,18 +21,14 @@ social: true # includes social icons at the bottom of the page
 
 #### About Me
 
-I am a Ph.D. candidate of Computer Science at Virginia Tech, advised by Prof. Peng Gao. I received my B.Eng. in Software Engineering from Beijing Jiaotong University.
-
-I am broadly interested in large language model, security and software engineering. My research mainly focuses on the application and customization of LLMs into knowledge-intensive and complex applications in security and software engineering (e.g., CTI analysis, SOC automation, penetration testing, etc.). The following are some projects that I am currently working on:
+I am a Ph.D. candidate of Computer Science at Virginia Tech, advised by Prof. Peng Gao. I received my B.Eng. in Software Engineering from Beijing Jiaotong University. My research mainly focuses on the application and customization of LLMs into knowledge-intensive and complex applications in security and software engineering. The following are some projects that I am currently working on:
 
 - `Cyber threat intelligence` extraction and security knowledge graph construction framework empowered by LLMs.
-  - Under revision
 
 - `Automatic penetration testing` framework incoporating RL-guided LLM-based agents with memory and learning mechanism. Also a benchmark environment for systematically evaluating the performance of pentest agents.
   - Under development and <u>seeking cooperation</u>, drop me a message if you are interested!
 
 - `Cloud SOC automation` framework built upon domain-data finetuned LLMs.
-  - Under development, ETC: 3/2025
 
 #### Education & Experience
 
