@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ACM CCS 2024 >> Utah Museum
+title: ACM CCS 2024 -> Utah Museum
 date: 2024-08-15
 description: 
 tags: 
