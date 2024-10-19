@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 #### About Me
 
-I am a Ph.D. candidate of Computer Science at Virginia Tech, advised by Prof. Peng Gao. Previously, I was a reseach assistant at the Chinese Univeristy of Hong Kong, Shenzhen, advised by Prof. Pinjia He. I received my B.Eng. in Software Engineering from Beijing Jiaotong University.
+I am a Ph.D. candidate of Computer Science at Virginia Tech, advised by Prof. Peng Gao. I received my B.Eng. in Software Engineering from Beijing Jiaotong University.
 
 I am broadly interested in large language model, security and software engineering. My research mainly focuses on the application and customization of LLMs into knowledge-intensive and complex applications in security and software engineering (e.g., CTI analysis, SOC automation, penetration testing, etc.). The following are some projects that I am currently working on:
 
@@ -38,8 +38,7 @@ I am broadly interested in large language model, security and software engineeri
 
 - Ph.D. in Computer Science, Virginia Tech, **01/2024 - present**
 - Community contributor, <a href='https://llama.family/'>Llama Family</a>, **12/2023-present**
-- Research assistant, <a href='https://sds.cuhk.edu.cn/en'>School of Data Science</a>, Chinese University of Hong Kong (Shenzhen), **09/2022-12/2023**
-<!-- - Research intern at Huawei PaaS Lab, Shenzhen, **6/2022-12/2022** -->
-- Algorithm intern, <a href='https://www.atomecho.cn/'>AtomEcho</a>, Beijing, **6/2023-12/2023**
+- Research intern at Huawei PaaS Lab, Shenzhen, **6/2022-12/2022**
+- Algorithm intern, <a href='https://www.atomecho.cn/'>AtomEcho</a>, Beijing, **9/2022-12/2023**
 - Backend developer intern, <a href='https://www.yuewen.com/'>Yuewen Group, Tencent</a>, Beijing, **6/2020-9/2020**
 - B.Eng. in Software Engineering, Beijing Jiaotong University, **9/2018-6/2022**
