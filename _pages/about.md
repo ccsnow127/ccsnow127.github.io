@@ -31,7 +31,7 @@ I am a Ph.D. candidate of Computer Science at Virginia Tech, advised by Prof. Pe
 #### Education & Experience
 
 - Ph.D. in Computer Science, Virginia Tech, `01/2024-present`
-- Research intern at <a href='https://llama.family/'>Llama Family</a>, Beijing, `09/2022-12/2023`
+- Research intern at <a href='https://llama.family/'>Llama Family</a>, Beijing, `09/2023-12/2023`
 - Algorithm developer intern, <a href='https://www.atomecho.cn/'>AtomEcho</a>, Beijing, `6/2023-09/2023`
 - Research assistance at CUHK, Shenzhen, `9/2022-06/2023`
 - Backend developer intern, <a href='https://www.yuewen.com/'>Yuewen Group, Tencent</a>, Beijing, `6/2020-9/2020`
