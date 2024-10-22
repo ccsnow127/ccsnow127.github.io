@@ -23,18 +23,16 @@ social: true # includes social icons at the bottom of the page
 
 I am a Ph.D. candidate of Computer Science at Virginia Tech, advised by Prof. Peng Gao. I received my B.Eng. in Software Engineering from Beijing Jiaotong University. My research mainly focuses on the application and customization of LLMs into knowledge-intensive and complex applications in security and software engineering. The following are some projects that I am currently working on:
 
-- `Cyber threat intelligence` extraction and security knowledge graph construction framework empowered by LLMs.
 
-- `Automatic penetration testing` framework incoporating RL-guided LLM-based agents with memory and learning mechanism. Also a benchmark environment for systematically evaluating the performance of pentest agents.
-  - Under development and <u>seeking cooperation</u>, drop me a message if you are interested!
-
-- `Cloud SOC automation` framework built upon domain-data finetuned LLMs.
+- `Security of task-specific fine-tuned LLMs` - Investige the security and privacy risks of deploying task-specific fine-tuned LLMs in production, and develop secure serving mechanisms to protect the model and data.
+- `LLM knowledge conflict` - Investigate how LLMs choose between inherent knowledge and retrieved content in conflicting scenarios, and develope strategies to help LLMs prioritize and integrate new knowledge effectively for accurate and up-to-date responses.
+- `Multi-modal embeddings algorithm` - Explore better ways to integrate multi-modal information into LLMs, and develop algorithms to learn embeddings that capture the complex relationships between different modalities.
 
 #### Education & Experience
 
 - Ph.D. in Computer Science, Virginia Tech, **01/2024 - present**
 - Algorithm developer intern, <a href='https://www.atomecho.cn/'>AtomEcho</a>, Beijing, **6/2023-12/2023**
 - Research assistance at CUHK, Shenzhen, **9/2023-06/2023**
-- Research intern at <a href='https://www.huaweicloud.com/lab/paas/home'>Huawei PaaS Lab</a>, Shenzhen, **6/2022-09/2022**
+- Research intern at <a href='https://www.huaweicloud.com/lab/paas/home'>Llama Family</a>, Beijing, **6/2022-09/2022**
 - Backend developer intern, <a href='https://www.yuewen.com/'>Yuewen Group, Tencent</a>, Beijing, **6/2020-9/2020**
 - B.Eng. in Software Engineering, Beijing Jiaotong University, **9/2018-6/2022**
