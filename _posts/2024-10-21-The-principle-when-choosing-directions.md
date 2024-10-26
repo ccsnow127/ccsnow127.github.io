@@ -1,11 +1,12 @@
 ---
 layout: distill
 title: The principle when choosing research directions
-description: an example of a distill-style blog post and main elements
+description: 
 tags: distill formatting
-giscus_comments: true
 date: 2024-10-21
-featured: true
+categories: principles
+tags: research
+featured: 
 ---
 
 > When you are not sure about whether a research direction is good or not, you can check the quality of the related works. 

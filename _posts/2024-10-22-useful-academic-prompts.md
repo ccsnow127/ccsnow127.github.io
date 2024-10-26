@@ -1,11 +1,11 @@
 ---
 layout: distill
 title: Useful academic prompts
-description: an example of a distill-style blog post and main elements
-tags: distill formatting
-giscus_comments: true
+description: 
+tags: LLM
+categories: tool
 date: 2024-10-21
-featured: true
+featured: false
 ---
 
 Let LLM help you skim read a paper.
