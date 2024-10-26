@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: post
 title: Useful academic prompts
 description: 
 tags: LLM

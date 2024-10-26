@@ -5,7 +5,7 @@ date: 2024-08-15
 description: 
 tags: 
 categories: 
-thumbnail: 
+thumbnail: assets/img/Utah-museum/IMG_8339.png
 images:
   compare: true
   slider: true

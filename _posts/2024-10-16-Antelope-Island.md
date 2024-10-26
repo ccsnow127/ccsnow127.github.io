@@ -5,7 +5,7 @@ date: 2024-10-16
 description: 
 tags: 
 categories: 
-thumbnail: 
+thumbnail: assets/img/Antelope-Island/IMG_8460.png
 images:
   compare: true
   slider: true

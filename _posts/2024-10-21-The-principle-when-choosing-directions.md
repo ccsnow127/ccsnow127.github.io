@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: post
 title: The principle when choosing research directions
 description: 
 tags: distill formatting
@@ -9,8 +9,8 @@ tags: research
 featured: 
 ---
 
-> When you are not sure about whether a research direction is good or not, you can check the quality of the related works. 
-> 
+When you are not sure about whether a research direction is good or not, you can check the quality of the <u>related works</u>. 
+---
 > (1) Whether the related works have solid definition of the problem?
 > 
 > (2) Whether the related works have clear motivation? (Whether useful in downstream tasks?)
