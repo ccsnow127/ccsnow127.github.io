@@ -18,3 +18,8 @@ images:
 
 
 {% include figure.liquid loading="eager" path="assets/img/Multimodal/arc-lmm-rag.png" class="img-fluid rounded z-depth-1 w-70" zoomable=true%}
+
+Cross-Modal Encoder
+---
+{% include figure.liquid loading="eager" path="assets/img/Multimodal/Bridge-Tower.png" class="img-fluid rounded z-depth-1 w-70" zoomable=true%} 
+
