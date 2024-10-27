@@ -5,7 +5,7 @@ description: A beginner's guide to multimodal RAG.
 img: assets/img/Multimodal/arc-lmm-rag.png
 importance: 1
 category: LMM
-related_publications: 
+related_publications: true
 ---
 
 {::nomarkdown}
