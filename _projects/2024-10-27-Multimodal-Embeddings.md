@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Multimodal RAG
-description: A beginner's guide to multimodal RAG.
+title: Multimodal RAG (1)
+description: Multimodal Embeddings 
 img: assets/img/Multimodal/arc-lmm-rag.png
 importance: 1
 category: LMM
