@@ -15,7 +15,7 @@ images:
 # Resources
 
 * [Multimodal RAG: Chat with Videos](https://learn.deeplearning.ai/courses/multimodal-rag-chat-with-videos)
-* You can check out the code for [Multimodal Embeddings](/projects/Multimodal-Embeddings/), [Multimodal Preprocessing](projects/1-Multimodal-Preprocessing/), [Multimodal Retrieval from Vector Stores](/projects/2-Multimodal-Retrieval/), and [Large Vision-Language Models (LVLMs)](/projects/3-LVLM/).
+* You can check out the code for [Multimodal Embeddings](/projects/Multimodal-Embeddings/), [Multimodal Preprocessing](/projects/1-Multimodal-Preprocessing/), [Multimodal Retrieval from Vector Stores](/projects/2-Multimodal-Retrieval/), and [Large Vision-Language Models (LVLMs)](/projects/3-LVLM/).
 
 <div class="row justify-content-sm-center">
  <div class="col-sm-8 mt-3 mt-md-0">
