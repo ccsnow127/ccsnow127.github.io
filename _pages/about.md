@@ -21,12 +21,13 @@ social: true # includes social icons at the bottom of the page
 
 #### About Me
 
-I am a Ph.D. candidate of Computer Science at Virginia Tech, advised by Prof. Peng Gao. I received my B.Eng. in Software Engineering from Beijing Jiaotong University. My research mainly focuses on the application and customization of LLMs into knowledge-intensive and complex applications in security and software engineering. The following are some projects that I am currently working on:
+I am a Ph.D. candidate of Computer Science at Virginia Tech, advised by Prof. Peng Gao. I received my B.Eng. in Software Engineering from Beijing Jiaotong University. 
+<!-- My research mainly focuses on the application and customization of LLMs into knowledge-intensive and complex applications in security and software engineering.  -->
+My research mainly focuses on the following topics:
 
-
-- `Security of task-specific fine-tuned LLMs` - Investige the security and privacy risks of deploying task-specific fine-tuned LLMs in production, and develop secure serving mechanisms to protect the model and data.
-- `LLM knowledge conflict` - Investigate how LLMs choose between inherent knowledge and retrieved content in conflicting scenarios, and develope strategies to help LLMs prioritize and integrate new knowledge effectively for accurate and up-to-date responses.
-- `Multi-modal embeddings algorithm` - Explore better ways to integrate multi-modal information into LLMs, and develop algorithms to learn embeddings that capture the complex relationships between different modalities.
+- `Automated and AI-assisted Security Application` 
+- `Agentic planning, reasoning, and learning` 
+- `LLM/MLLM post-training`
 
 #### Education & Experience
 
