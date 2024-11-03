@@ -25,9 +25,9 @@ I am a Ph.D. candidate of Computer Science at Virginia Tech, advised by Prof. Pe
 <!-- My research mainly focuses on the application and customization of LLMs into knowledge-intensive and complex applications in security and software engineering.  -->
 My research mainly focuses on the following topics:
 
-- `Automated and AI-assisted Security Application` 
+- `LLM/MLLM specialization and customization` 
 - `Agentic planning, reasoning, and learning` 
-- `LLM/MLLM post-training`
+- `Automated and AI-assisted security operations (SecOps)`
 
 #### Education & Experience
 
