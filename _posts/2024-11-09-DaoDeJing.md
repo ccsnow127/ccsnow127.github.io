@@ -6,4 +6,5 @@ description:
 tags: daoism
 categories: book
 redirect: /assets/pdf/DaoDeJing.pdf
+featured: true
 ---
