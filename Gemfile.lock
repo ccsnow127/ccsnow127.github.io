@@ -142,6 +142,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.6.5)
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -158,6 +159,7 @@ GEM
       racc (~> 1.7)
     nokogiri (1.18.2-aarch64-linux-gnu)
       racc (~> 1.4)
+    observer (0.1.2)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.1)
@@ -207,7 +209,9 @@ DEPENDENCIES
   jekyll-toc
   jekyll-twitter-plugin
   jemoji
+  logger
   mini_racer
+  observer
   unicode_utils
   webrick
 
