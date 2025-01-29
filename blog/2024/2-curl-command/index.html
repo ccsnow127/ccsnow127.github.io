@@ -1,0 +1,260 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> curl cookers | CiCi Y. Cheng </title> <meta name="author" content="CiCi Yutong Cheng"> <meta name="description" content="Ph.D. Student in Computer Science at Virginia Tech. Researching on LLM/MLLM specialization and customization. "> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A6%84&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://ccsnow127.github.io/blog/2024/2-curl-command/"> <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>initTheme();</script> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8.0.6/dist/styles.min.css" integrity="sha256-3qTIuuUWIFnnU3LpQMjqiXc0p09rvd0dmj+WkpQXSR8=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css" integrity="sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E=" crossorigin="anonymous"> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> CiCi Y. Cheng </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">cv </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="ti ti-search"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">curl cookers</h1> <p class="post-meta"> Created in November 11, 2024 </p> <p class="post-tags"> <a href="/blog/2024"> <i class="fa-solid fa-calendar fa-sm"></i> 2024 </a>   ·   <a href="/blog/tag/cooker"> <i class="fa-solid fa-hashtag fa-sm"></i> cooker,</a>   <a href="/blog/tag/usage"> <i class="fa-solid fa-hashtag fa-sm"></i> usage</a>   ·   <a href="/blog/category/curl"> <i class="fa-solid fa-tag fa-sm"></i> curl</a> </p> </header> <article class="post-content"> <div id="table-of-contents"> <ul id="toc" class="section-nav"> <li class="toc-entry toc-h2"><a href="#usage-curl-options-">Usage: curl [options…] </a></li> <li class="toc-entry toc-h2"><a href="#pipe">pipe</a></li> </ul> </div> <hr> <div id="markdown-content"> <h2 id="usage-curl-options-">Usage: curl [options…] <url></url> </h2> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     --abstract-unix-socket &lt;path&gt;   Connect via abstract Unix domain socket
+     --alt-svc &lt;filename&gt;            Enable alt-svc with this cache file
+     --anyauth                       Pick any authentication method
+ -a, --append                        Append to target file when uploading
+     --aws-sigv4 &lt;provider1[:prvdr2[:reg[:srv]]]&gt;  AWS V4 signature auth
+     --basic                         HTTP Basic Authentication
+     --ca-native                     Load CA certs from the OS
+     --cacert &lt;file&gt;                 CA certificate to verify peer against
+     --capath &lt;dir&gt;                  CA directory to verify peer against
+ -E, --cert &lt;certificate[:password]&gt;  Client certificate file and password
+     --cert-status                   Verify server cert status OCSP-staple
+     --cert-type &lt;type&gt;              Certificate type (DER/PEM/ENG/P12)
+     --ciphers &lt;list of ciphers&gt;     SSL ciphers to use
+     --compressed                    Request compressed response
+     --compressed-ssh                Enable SSH compression
+ -K, --config &lt;file&gt;                 Read config from a file
+     --connect-timeout &lt;seconds&gt;     Maximum time allowed to connect
+     --connect-to &lt;HOST1:PORT1:HOST2:PORT2&gt;  Connect to host
+ -C, --continue-at &lt;offset&gt;          Resumed transfer offset
+ -b, --cookie &lt;data|filename&gt;        Send cookies from string/load from file
+ -c, --cookie-jar &lt;filename&gt;         Save cookies to &lt;filename&gt; after operation
+     --create-dirs                   Create necessary local directory hierarchy
+     --create-file-mode &lt;mode&gt;       File mode for created files
+     --crlf                          Convert LF to CRLF in upload
+     --crlfile &lt;file&gt;                Certificate Revocation list
+     --curves &lt;list&gt;                 (EC) TLS key exchange algorithms to request
+ -d, --data &lt;data&gt;                   HTTP POST data
+     --data-ascii &lt;data&gt;             HTTP POST ASCII data
+     --data-binary &lt;data&gt;            HTTP POST binary data
+     --data-raw &lt;data&gt;               HTTP POST data, '@' allowed
+     --data-urlencode &lt;data&gt;         HTTP POST data URL encoded
+     --delegation &lt;LEVEL&gt;            GSS-API delegation permission
+     --digest                        HTTP Digest Authentication
+ -q, --disable                       Disable .curlrc
+     --disable-eprt                  Inhibit using EPRT or LPRT
+     --disable-epsv                  Inhibit using EPSV
+     --disallow-username-in-url      Disallow username in URL
+     --dns-interface &lt;interface&gt;     Interface to use for DNS requests
+     --dns-ipv4-addr &lt;address&gt;       IPv4 address to use for DNS requests
+     --dns-ipv6-addr &lt;address&gt;       IPv6 address to use for DNS requests
+     --dns-servers &lt;addresses&gt;       DNS server addrs to use
+     --doh-cert-status               Verify DoH server cert status OCSP-staple
+     --doh-insecure                  Allow insecure DoH server connections
+     --doh-url &lt;URL&gt;                 Resolve hostnames over DoH
+ -D, --dump-header &lt;filename&gt;        Write the received headers to &lt;filename&gt;
+     --egd-file &lt;file&gt;               EGD socket path for random data
+     --engine &lt;name&gt;                 Crypto engine to use
+     --etag-compare &lt;file&gt;           Load ETag from file
+     --etag-save &lt;file&gt;              Parse incoming ETag and save to a file
+     --expect100-timeout &lt;seconds&gt;   How long to wait for 100-continue
+ -f, --fail                          Fail fast with no output on HTTP errors
+     --fail-early                    Fail on first transfer error
+     --fail-with-body                Fail on HTTP errors but save the body
+     --false-start                   Enable TLS False Start
+ -F, --form &lt;name=content&gt;           Specify multipart MIME data
+     --form-escape                   Escape form fields using backslash
+     --form-string &lt;name=string&gt;     Specify multipart MIME data
+     --ftp-account &lt;data&gt;            Account data string
+     --ftp-alternative-to-user &lt;command&gt;  String to replace USER [name]
+     --ftp-create-dirs               Create the remote dirs if not present
+     --ftp-method &lt;method&gt;           Control CWD usage
+     --ftp-pasv                      Send PASV/EPSV instead of PORT
+ -P, --ftp-port &lt;address&gt;            Send PORT instead of PASV
+     --ftp-pret                      Send PRET before PASV
+     --ftp-skip-pasv-ip              Skip the IP address for PASV
+     --ftp-ssl-ccc                   Send CCC after authenticating
+     --ftp-ssl-ccc-mode &lt;active/passive&gt;  Set CCC mode
+     --ftp-ssl-control               Require TLS for login, clear for transfer
+ -G, --get                           Put the post data in the URL and use GET
+ -g, --globoff                       Disable URL globbing with {} and []
+     --happy-eyeballs-timeout-ms &lt;ms&gt;  Time for IPv6 before IPv4
+     --haproxy-clientip &lt;ip&gt;         Set address in HAProxy PROXY
+     --haproxy-protocol              Send HAProxy PROXY protocol v1 header
+ -I, --head                          Show document info only
+ -H, --header &lt;header/@file&gt;         Pass custom header(s) to server
+ -h, --help &lt;category&gt;               Get help for commands
+     --hostpubmd5 &lt;md5&gt;              Acceptable MD5 hash of host public key
+     --hostpubsha256 &lt;sha256&gt;        Acceptable SHA256 hash of host public key
+     --hsts &lt;filename&gt;               Enable HSTS with this cache file
+     --http0.9                       Allow HTTP 0.9 responses
+ -0, --http1.0                       Use HTTP 1.0
+     --http1.1                       Use HTTP 1.1
+     --http2                         Use HTTP/2
+     --http2-prior-knowledge         Use HTTP 2 without HTTP/1.1 Upgrade
+     --http3                         Use HTTP v3
+     --http3-only                    Use HTTP v3 only
+     --ignore-content-length         Ignore the size of the remote resource
+ -i, --include                       Include response headers in output
+ -k, --insecure                      Allow insecure server connections
+     --interface &lt;name&gt;              Use network INTERFACE (or address)
+     --ipfs-gateway &lt;URL&gt;            Gateway for IPFS
+ -4, --ipv4                          Resolve names to IPv4 addresses
+ -6, --ipv6                          Resolve names to IPv6 addresses
+     --json &lt;data&gt;                   HTTP POST JSON
+ -j, --junk-session-cookies          Ignore session cookies read from file
+     --keepalive-time &lt;seconds&gt;      Interval time for keepalive probes
+     --key &lt;key&gt;                     Private key filename
+     --key-type &lt;type&gt;               Private key file type (DER/PEM/ENG)
+     --krb &lt;level&gt;                   Enable Kerberos with security &lt;level&gt;
+     --libcurl &lt;file&gt;                Generate libcurl code for this command line
+     --limit-rate &lt;speed&gt;            Limit transfer speed to RATE
+ -l, --list-only                     List only mode
+     --local-port &lt;range&gt;            Use a local port number within RANGE
+ -L, --location                      Follow redirects
+     --location-trusted            Like --location, but send auth to other hosts
+     --login-options &lt;options&gt;       Server login options
+     --mail-auth &lt;address&gt;           Originator address of the original email
+     --mail-from &lt;address&gt;           Mail from this address
+     --mail-rcpt &lt;address&gt;           Mail to this address
+     --mail-rcpt-allowfails          Allow RCPT TO command to fail
+ -M, --manual                        Display the full manual
+     --max-filesize &lt;bytes&gt;          Maximum file size to download
+     --max-redirs &lt;num&gt;              Maximum number of redirects allowed
+ -m, --max-time &lt;seconds&gt;            Maximum time allowed for transfer
+     --metalink                      Process given URLs as metalink XML file
+     --negotiate                     Use HTTP Negotiate (SPNEGO) authentication
+ -n, --netrc                         Must read .netrc for username and password
+     --netrc-file &lt;filename&gt;         Specify FILE for netrc
+     --netrc-optional                Use either .netrc or URL
+ -:, --next                        Make next URL use its separate set of options
+     --no-alpn                       Disable the ALPN TLS extension
+ -N, --no-buffer                     Disable buffering of the output stream
+     --no-clobber                    Do not overwrite files that already exist
+     --no-keepalive                  Disable TCP keepalive on the connection
+     --no-npn                        Disable the NPN TLS extension
+     --no-progress-meter             Do not show the progress meter
+     --no-sessionid                  Disable SSL session-ID reusing
+     --noproxy &lt;no-proxy-list&gt;       List of hosts which do not use proxy
+     --ntlm                          HTTP NTLM authentication
+     --ntlm-wb                       HTTP NTLM authentication with winbind
+     --oauth2-bearer &lt;token&gt;         OAuth 2 Bearer Token
+ -o, --output &lt;file&gt;                 Write to file instead of stdout
+     --output-dir &lt;dir&gt;              Directory to save files in
+ -Z, --parallel                      Perform transfers in parallel
+     --parallel-immediate         Do not wait for multiplexing (with --parallel)
+     --parallel-max &lt;num&gt;            Maximum concurrency for parallel transfers
+     --pass &lt;phrase&gt;                 Pass phrase for the private key
+     --path-as-is                    Do not squash .. sequences in URL path
+     --pinnedpubkey &lt;hashes&gt;       FILE/HASHES Public key to verify peer against
+     --post301                       Do not switch to GET after a 301 redirect
+     --post302                       Do not switch to GET after a 302 redirect
+     --post303                       Do not switch to GET after a 303 redirect
+     --preproxy [protocol://]host[:port]  Use this proxy first
+ -#, --progress-bar                  Display transfer progress as a bar
+     --proto &lt;protocols&gt;             Enable/disable PROTOCOLS
+     --proto-default &lt;protocol&gt;      Use PROTOCOL for any URL missing a scheme
+     --proto-redir &lt;protocols&gt;       Enable/disable PROTOCOLS on redirect
+ -x, --proxy [protocol://]host[:port]  Use this proxy
+     --proxy-anyauth                 Pick any proxy authentication method
+     --proxy-basic                   Use Basic authentication on the proxy
+     --proxy-ca-native               Load CA certs from the OS to verify proxy
+     --proxy-cacert &lt;file&gt;           CA certificates to verify proxy against
+     --proxy-capath &lt;dir&gt;            CA directory to verify proxy against
+     --proxy-cert &lt;cert[:passwd]&gt;    Set client certificate for proxy
+     --proxy-cert-type &lt;type&gt;        Client certificate type for HTTPS proxy
+     --proxy-ciphers &lt;list&gt;          SSL ciphers to use for proxy
+     --proxy-crlfile &lt;file&gt;          Set a CRL list for proxy
+     --proxy-digest                  Digest auth with the proxy
+     --proxy-header &lt;header/@file&gt;   Pass custom header(s) to proxy
+     --proxy-http2                   Use HTTP/2 with HTTPS proxy
+     --proxy-insecure                Skip HTTPS proxy cert verification
+     --proxy-key &lt;key&gt;               Private key for HTTPS proxy
+     --proxy-key-type &lt;type&gt;         Private key file type for proxy
+     --proxy-negotiate               HTTP Negotiate (SPNEGO) auth with the proxy
+     --proxy-ntlm                    NTLM authentication with the proxy
+     --proxy-pass &lt;phrase&gt;       Pass phrase for the private key for HTTPS proxy
+     --proxy-pinnedpubkey &lt;hashes&gt;   FILE/HASHES public key to verify proxy with
+     --proxy-service-name &lt;name&gt;     SPNEGO proxy service name
+     --proxy-ssl-allow-beast     Allow security flaw for interop for HTTPS proxy
+     --proxy-ssl-auto-client-cert    Auto client certificate for proxy
+     --proxy-tls13-ciphers &lt;ciphersuite list&gt;  TLS 1.3 proxy cipher suites
+     --proxy-tlsauthtype &lt;type&gt;      TLS authentication type for HTTPS proxy
+     --proxy-tlspassword &lt;string&gt;    TLS password for HTTPS proxy
+     --proxy-tlsuser &lt;name&gt;          TLS username for HTTPS proxy
+     --proxy-tlsv1                   TLSv1 for HTTPS proxy
+ -U, --proxy-user &lt;user:password&gt;    Proxy user and password
+     --proxy1.0 &lt;host[:port]&gt;        Use HTTP/1.0 proxy on given port
+ -p, --proxytunnel                   HTTP proxy tunnel (using CONNECT)
+     --pubkey &lt;key&gt;                  SSH Public key filename
+ -Q, --quote &lt;command&gt;               Send command(s) to server before transfer
+     --random-file &lt;file&gt;            File for reading random data from
+ -r, --range &lt;range&gt;                 Retrieve only the bytes within RANGE
+     --rate &lt;max request rate&gt;       Request rate for serial transfers
+     --raw                           Do HTTP raw; no transfer decoding
+ -e, --referer &lt;URL&gt;                 Referrer URL
+ -J, --remote-header-name            Use the header-provided filename
+ -O, --remote-name                   Write output to file named as remote file
+     --remote-name-all               Use the remote filename for all URLs
+ -R, --remote-time                   Set remote file's time on local output
+     --remove-on-error               Remove output file on errors
+ -X, --request &lt;method&gt;              Specify request method to use
+     --request-target &lt;path&gt;         Specify the target for this request
+     --resolve &lt;[+]host:port:addr[,addr]...&gt;  Resolve host+port to address
+     --retry &lt;num&gt;                   Retry request if transient problems occur
+     --retry-all-errors              Retry all errors (with --retry)
+     --retry-connrefused             Retry on connection refused (with --retry)
+     --retry-delay &lt;seconds&gt;         Wait time between retries
+     --retry-max-time &lt;seconds&gt;      Retry only within this period
+     --sasl-authzid &lt;identity&gt;       Identity for SASL PLAIN authentication
+     --sasl-ir                       Initial response in SASL authentication
+     --service-name &lt;name&gt;           SPNEGO service name
+ -S, --show-error                    Show error even when -s is used
+ -s, --silent                        Silent mode
+     --socks4 &lt;host[:port]&gt;          SOCKS4 proxy on given host + port
+     --socks4a &lt;host[:port]&gt;         SOCKS4a proxy on given host + port
+     --socks5 &lt;host[:port]&gt;          SOCKS5 proxy on given host + port
+     --socks5-basic                  Username/password auth for SOCKS5 proxies
+     --socks5-gssapi                 Enable GSS-API auth for SOCKS5 proxies
+     --socks5-gssapi-nec             Compatibility with NEC SOCKS5 server
+     --socks5-gssapi-service &lt;name&gt;  SOCKS5 proxy service name for GSS-API
+     --socks5-hostname &lt;host[:port]&gt;  SOCKS5 proxy, pass hostname to proxy
+ -Y, --speed-limit &lt;speed&gt;           Stop transfers slower than this
+ -y, --speed-time &lt;seconds&gt;          Trigger 'speed-limit' abort after this time
+     --ssl                           Try enabling TLS
+     --ssl-allow-beast               Allow security flaw to improve interop
+     --ssl-auto-client-cert          Use auto client certificate (Schannel)
+     --ssl-no-revoke                 Disable cert revocation checks (Schannel)
+     --ssl-reqd                      Require SSL/TLS
+     --ssl-revoke-best-effort        Ignore missing cert CRL dist points
+ -2, --sslv2                         SSLv2
+ -3, --sslv3                         SSLv3
+     --stderr &lt;file&gt;                 Where to redirect stderr
+     --styled-output                 Enable styled output for HTTP headers
+     --suppress-connect-headers      Suppress proxy CONNECT response headers
+     --tcp-fastopen                  Use TCP Fast Open
+     --tcp-nodelay                   Set TCP_NODELAY
+ -t, --telnet-option &lt;opt=val&gt;       Set telnet option
+     --tftp-blksize &lt;value&gt;          Set TFTP BLKSIZE option
+     --tftp-no-options               Do not send any TFTP options
+ -z, --time-cond &lt;time&gt;              Transfer based on a time condition
+     --tls-max &lt;VERSION&gt;             Maximum allowed TLS version
+     --tls13-ciphers &lt;list&gt;          TLS 1.3 cipher suites to use
+     --tlsauthtype &lt;type&gt;            TLS authentication type
+     --tlspassword &lt;string&gt;          TLS password
+     --tlsuser &lt;name&gt;                TLS username
+ -1, --tlsv1                         TLSv1.0 or greater
+     --tlsv1.0                       TLSv1.0 or greater
+     --tlsv1.1                       TLSv1.1 or greater
+     --tlsv1.2                       TLSv1.2 or greater
+     --tlsv1.3                       TLSv1.3 or greater
+     --tr-encoding                   Request compressed transfer encoding
+     --trace &lt;file&gt;                  Write a debug trace to FILE
+     --trace-ascii &lt;file&gt;            Like --trace, but without hex output
+     --trace-config &lt;string&gt;         Details to log in trace/verbose output
+     --trace-ids                     Transfer + connection ids in verbose output
+     --trace-time                    Add time stamps to trace/verbose output
+     --unix-socket &lt;path&gt;            Connect through this Unix domain socket
+ -T, --upload-file &lt;file&gt;            Transfer local FILE to destination
+     --url &lt;url&gt;                     URL to work with
+     --url-query &lt;data&gt;              Add a URL query part
+ -B, --use-ascii                     Use ASCII/text transfer
+ -u, --user &lt;user:password&gt;          Server user and password
+ -A, --user-agent &lt;name&gt;             Send User-Agent &lt;name&gt; to server
+     --variable &lt;[%]name=text/@file&gt;  Set variable
+ -v, --verbose                       Make the operation more talkative
+ -V, --version                       Show version number and quit
+ -w, --write-out &lt;format&gt;            Output FORMAT after completion
+     --xattr                         Store metadata in extended file attributes
+</code></pre></div></div> <h2 id="pipe">pipe</h2> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">--proto</span> <span class="s1">'=https'</span> <span class="nt">--tlsv1</span>.2 <span class="nt">-sSf</span> https://sh.rustup.rs | sh
+</code></pre></div></div> <ul> <li>The pipe <code class="language-plaintext highlighter-rouge">|</code> takes the output of the curl command, which is the Rust installer script, and passes it to sh, the Unix shell, to execute the script.</li> <li>In summary, the <code class="language-plaintext highlighter-rouge">| sh</code> means that the downloaded script is immediately executed in the shell.</li> <li>This is a common way to install software from the internet, but you should always be cautious and ensure you trust the source, as running scripts directly can be a security risk.</li> </ul> </div> </article> <br> <hr> <br> <ul class="list-disc pl-8"></ul> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/1-docker-command/">docker cookers</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/JinGangJing/">金刚经:凡所有相，皆是虚妄</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/DaoDeJing/">道德经:道可道，非常道，名可名，非常名</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/connect-remote-server-to-colab/">Connect Remote Server To Colab</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/how-to-submit-2-arxiv/">How to submit to arXiv</a> </li> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2025 CiCi Yutong Cheng. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script> <script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script type="text/javascript">window.MathJax={tex:{tags:"ams"}};</script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script type="text/javascript">function progressBarSetup(){"max"in document.createElement("progress")?(initializeProgressElement(),$(document).on("scroll",function(){progressBar.attr({value:getCurrentScrollPosition()})}),$(window).on("resize",initializeProgressElement)):(resizeProgressBar(),$(document).on("scroll",resizeProgressBar),$(window).on("resize",resizeProgressBar))}function getCurrentScrollPosition(){return $(window).scrollTop()}function initializeProgressElement(){let e=$("#navbar").outerHeight(!0);$("body").css({"padding-top":e}),$("progress-container").css({"padding-top":e}),progressBar.css({top:e}),progressBar.attr({max:getDistanceToScroll(),value:getCurrentScrollPosition()})}function getDistanceToScroll(){return $(document).height()-$(window).height()}function resizeProgressBar(){progressBar.css({width:getWidthPercentage()+"%"})}function getWidthPercentage(){return getCurrentScrollPosition()/getDistanceToScroll()*100}const progressBar=$("#progress");window.onload=function(){setTimeout(progressBarSetup,50)};</script> <script>var wechatModal=document.getElementById("WeChatMod"),wechatBtn=document.getElementById("WeChatBtn");wechatBtn.onclick=function(){wechatModal.style.display="block"},window.onclick=function(t){t.target==wechatModal&&(wechatModal.style.display="none")};</script> <script defer src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8.0.6/dist/index.min.js" integrity="sha256-EXHg3x1K4oIWdyohPeKX2ZS++Wxt/FRPH7Nl01nat1o=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-element-bundle.min.js" integrity="sha256-BPrwikijIybg9OQC5SYFFqhBjERYOn97tCureFgYH1E=" crossorigin="anonymous"></script> <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script>addBackToTop();</script> <script type="module" src="/assets/js/search/ninja-keys.min.js?601a2d3465e2a52bec38b600518d5f70"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script>let searchTheme=determineComputedTheme();const ninjaKeys=document.querySelector("ninja-keys");"dark"===searchTheme?ninjaKeys.classList.add("dark"):ninjaKeys.classList.remove("dark");const openSearchModal=()=>{const e=$("#navbarNav");e.hasClass("show")&&e.collapse("hide"),ninjaKeys.open()};</script> <script>const ninja=document.querySelector("ninja-keys");ninja.data=[{id:"nav-about",title:"about",section:"Navigation",handler:()=>{window.location.href="/"}},{id:"nav-blog",title:"blog",description:"",section:"Navigation",handler:()=>{window.location.href="/blog/"}},{id:"nav-publications",title:"publications",description:"publications by categories in reversed chronological order. generated by jekyll-scholar.",section:"Navigation",handler:()=>{window.location.href="/publications/"}},{id:"nav-projects",title:"projects",description:"A growing collection of my cool projects.",section:"Navigation",handler:()=>{window.location.href="/projects/"}},{id:"nav-cv",title:"cv",description:"You can download my CV here.",section:"Navigation",handler:()=>{window.location.href="/cv/"}},{id:"post-curl-cookers",title:"curl cookers",description:"",section:"Posts",handler:()=>{window.location.href="/blog/2024/2-curl-command/"}},{id:"post-docker-cookers",title:"docker cookers",description:"",section:"Posts",handler:()=>{window.location.href="/blog/2024/1-docker-command/"}},{id:"post-\u91d1\u521a\u7ecf-\u51e1\u6240\u6709\u76f8-\u7686\u662f\u865a\u5984",title:"\u91d1\u521a\u7ecf:\u51e1\u6240\u6709\u76f8\uff0c\u7686\u662f\u865a\u5984",description:"",section:"Posts",handler:()=>{window.location.href="/blog/2024/JinGangJing/"}},{id:"post-\u9053\u5fb7\u7ecf-\u9053\u53ef\u9053-\u975e\u5e38\u9053-\u540d\u53ef\u540d-\u975e\u5e38\u540d",title:"\u9053\u5fb7\u7ecf:\u9053\u53ef\u9053\uff0c\u975e\u5e38\u9053\uff0c\u540d\u53ef\u540d\uff0c\u975e\u5e38\u540d",description:"",section:"Posts",handler:()=>{window.location.href="/assets/pdf/DaoDeJing.pdf"}},{id:"post-connect-remote-server-to-colab",title:"Connect Remote Server To Colab",description:"",section:"Posts",handler:()=>{window.location.href="/blog/2024/connect-remote-server-to-colab/"}},{id:"post-how-to-submit-to-arxiv",title:"How to submit to arXiv",description:"",section:"Posts",handler:()=>{window.location.href="/assets/pdf/arXiv_submission.pdf"}},{id:"post-multimodal",title:"Multimodal",description:"",section:"Posts",handler:()=>{window.location.href="/blog/2024/Multimodal/"}},{id:"post-useful-academic-prompts",title:"Useful academic prompts",description:"",section:"Posts",handler:()=>{window.location.href="/blog/2024/useful-academic-prompts/"}},{id:"post-the-principle-when-choosing-research-directions",title:"The principle when choosing research directions",description:"",section:"Posts",handler:()=>{window.location.href="/blog/2024/The-principle-when-choosing-directions/"}},{id:"post-acm-ccs-2024-gt-antelope-island",title:"ACM CCS 2024 -&gt; Antelope Island",description:"",section:"Posts",handler:()=>{window.location.href="/blog/2024/Antelope-Island/"}},{id:"post-acm-ccs-2024-gt-utah-museum",title:"ACM CCS 2024 -&gt; Utah Museum",description:"",section:"Posts",handler:()=>{window.location.href="/blog/2024/Utah-museum/"}},{id:"post-acm-ccs-2024-gt-trip-to-salt-lake-city",title:"ACM CCS 2024 -&gt; Trip to Salt Lake City",description:"",section:"Posts",handler:()=>{window.location.href="/blog/2024/Trip-2-SLC/"}},{id:"news-\ud835\udcab\ud835\udcb6\ud835\udcc5\ud835\udc52\ud835\udcc7-our-paper-quot-hue-a-user-adaptive-parser-for-hybrid-logs-quot-has-been-accepted-for-esec-fse-2023-https-2023-esec-fse-org",title:"`\ud83d\udc9c\ud835\udcab\ud835\udcb6\ud835\udcc5\ud835\udc52\ud835\udcc7` Our paper &quot;Hue: A User-Adaptive Parser for Hybrid Logs&quot; Has been accepted...",description:"",section:"News"},{id:"news-\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee-i-reviewed-1-paper-as-an-external-reviewer-for-the-euros-amp-p-2024-https-eurosp2024-ieee-security-org",title:"`\ud83e\udd0d\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee` I reviewed 1 paper as an external reviewer for the [EuroS&amp;P 2024](https://eurosp2024.ieee-security.org/)....",description:"",section:"News"},{id:"news-\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee-i-reviewed-1-paper-as-an-external-reviewer-for-the-tops-2023-https-dl-acm-org-toc-tops-2023",title:"`\ud83e\udd0d\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee` I reviewed 1 paper as an external reviewer for the [TOPS 2023](https://dl.acm.org/toc/tops/2023)....",description:"",section:"News"},{id:"news-\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee-i-reviewed-1-paper-as-an-external-reviewer-for-the-dlsp-2024-https-dlsp2024-ieee-security-org",title:"`\ud83e\udd0d\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee` I reviewed 1 paper as an external reviewer for the [DLSP 2024](https://dlsp2024.ieee-security.org/)....",description:"",section:"News"},{id:"news-\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee-i-served-as-the-student-organizer-of-the-2024-dmv-security-workshop-https-dmv-sec-workshop-github-io",title:"`\ud83e\udd0d\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee` I served as the student organizer of the [2024 DMV Security Workshop](https://dmv-sec-workshop.github.io/)....",description:"",section:"News"},{id:"news-\ud835\udc9c\ud835\udd00\ud835\udcb6\ud835\udcc7\ud835\udcb9-i-have-been-selected-for-the-2024-cci-swva-cyber-innovation-scholarship-https-cyberinitiative-swva-org-news-events-cci-cyber-start-ups-lab-24-html",title:"`\ud83e\ude75\ud835\udc9c\ud835\udd00\ud835\udcb6\ud835\udcc7\ud835\udcb9` I have been selected for the [2024 CCI SWVA Cyber Innovation Scholarship](https://cyberinitiative-swva.org/news/events/cci-cyber-start-ups-lab-24.html)....",description:"",section:"News"},{id:"news-\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee-i-reviewed-1-paper-as-an-external-reviewer-for-the-ccs-2024-https-www-sigsac-org-ccs-ccs2024",title:"`\ud83e\udd0d\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee` I reviewed 1 paper as an external reviewer for the [CCS 2024](https://www.sigsac.org/ccs/CCS2024/)....",description:"",section:"News"},{id:"news-\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee-i-reviewed-4-papers-as-an-external-reviewer-for-the-ndss-2025-https-www-ndss-symposium-org-ndss2025",title:"`\ud83e\udd0d\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee` I reviewed 4 papers as an external reviewer for the [NDSS 2025](https://www.ndss-symposium.org/ndss2025/)....",description:"",section:"News"},{id:"news-\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee-i-will-be-serving-as-the-lab-lead-of-the-vt-security-amp-intelligence-lab-https-people-cs-vt-edu-penggao-lab-html-from-this-semester",title:"`\ud83e\udd0d\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee` I will be serving as the lab lead of the [VT Security...",description:"",section:"News"},{id:"news-\ud835\udc9c\ud835\udd00\ud835\udcb6\ud835\udcc7\ud835\udcb9-i-have-been-selected-by-the-bitshares-fellowship-https-cs-vt-edu-graduate-funding-fellowships-html-for-smart-contract-related-research-project",title:"`\ud83e\ude75\ud835\udc9c\ud835\udd00\ud835\udcb6\ud835\udcc7\ud835\udcb9` I have been selected by the [Bitshares Fellowship](https://cs.vt.edu/Graduate/Funding/fellowships.html) for smart-contract-related research project!...",description:"",section:"News"},{id:"news-\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee-i-reviewed-1-paper-as-an-external-reviewer-for-the-asiaccs-2025-https-asiaccs2025-hust-edu-vn",title:"`\ud83e\udd0d\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee` I reviewed 1 paper as an external reviewer for the [AsiaCCS 2025](https://asiaccs2025.hust.edu.vn/)....",description:"",section:"News"},{id:"news-\ud835\udc6a\ud835\udc5c\ud835\udcc3\ud835\udcbb\ud835\udc52\ud835\udcc7\ud835\udc52\ud835\udcc3\ud835\udcb8\ud835\udcee-i-attended-the-2024-acm-ccs-https-www-sigsac-org-ccs-ccs2024-conference-in-salt-lake-city-usa-see-some-of-the-excited-moments-here-antelop-island-blog-2024-antelope-island-utah-museum-blog-2024-utah-museum-city-walk-blog-2024-trip-2-slc",title:"`\ud83d\udc9b\ud835\udc6a\ud835\udc5c\ud835\udcc3\ud835\udcbb\ud835\udc52\ud835\udcc7\ud835\udc52\ud835\udcc3\ud835\udcb8\ud835\udcee`I attended the [2024 ACM CCS](https://www.sigsac.org/ccs/CCS2024/) conference in Salt Lake City, USA! See...",description:"",section:"News"},{id:"news-\ud835\udcab\ud835\udcb6\ud835\udcc5\ud835\udc52\ud835\udcc7-our-paper-quot-ctinexus-leveraging-optimized-llm-in-context-learning-for-constructing-cybersecurity-knowledge-graphs-under-data-scarcity-quot-is-now-available-on-arxiv-https-arxiv-org-pdf-2410-21060",title:"`\ud83d\udc9c\ud835\udcab\ud835\udcb6\ud835\udcc5\ud835\udc52\ud835\udcc7` Our paper, &quot;CTINEXUS: Leveraging Optimized LLM In-Context Learning for Constructing Cybersecurity Knowledge...",description:"",section:"News"},{id:"news-\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee-i-reviewed-2-papers-as-an-external-reviewer-for-the-euros-amp-p-2025-https-eurosp2025-ieee-security-org",title:"`\ud83e\udd0d\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee` I reviewed 2 papers as an external reviewer for the [EuroS&amp;P 2025](https://eurosp2025.ieee-security.org/)....",description:"",section:"News"},{id:"news-\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee-i-reviewed-2-papers-as-an-external-reviewer-for-the-ieee-s-amp-p-2025-https-sp2025-ieee-security-org",title:"`\ud83e\udd0d\ud835\udcae\ud835\udcee\ud835\udc5f\ud835\udccb\ud835\udcbe\ud835\udcec\ud835\udcee` I reviewed 2 papers as an external reviewer for the [IEEE S&amp;P...",description:"",section:"News"},{id:"projects-multimodal-rag-1",title:"Multimodal RAG (1)",description:"Multimodal Embeddings",section:"Projects",handler:()=>{window.location.href="/projects/Multimodal-Embeddings/"}},{id:"projects-multimodal-rag-2",title:"Multimodal RAG (2)",description:"Preprocessing Videos for Multimodal RAG",section:"Projects",handler:()=>{window.location.href="/projects/1-Multimodal-Preprocessing/"}},{id:"projects-multimodal-rag-3",title:"Multimodal RAG (3)",description:"Multimodal Retrieval from Vector Stores",section:"Projects",handler:()=>{window.location.href="/projects/2-Multimodal-Retrieval/"}},{id:"projects-multimodal-rag-4",title:"Multimodal RAG (4)",description:"Large Vision-Language Models (LVLMs)",section:"Projects",handler:()=>{window.location.href="/projects/3-LVLM/"}},{id:"projects-multimodal-rag-5",title:"Multimodal RAG (5)",description:"Multimodal RAG with Multimodal Langchain",section:"Projects",handler:()=>{window.location.href="/projects/4-Multimodal-Langchain/"}},{id:"projects-large-multimodal-model-prompting-with-gemini",title:"Large Multimodal Model Prompting with Gemini",description:"Multimodal Prompting and Parameter Control",section:"Projects",handler:()=>{window.location.href="/projects/5-Multimodal-Prompting/"}},{id:"projects-project-7",title:"project 7",description:"with background image",section:"Projects",handler:()=>{window.location.href="/projects/7_project/"}},{id:"projects-project-8",title:"project 8",description:"an other project with a background image and giscus comments",section:"Projects",handler:()=>{window.location.href="/projects/8_project/"}},{id:"projects-project-9",title:"project 9",description:"another project with an image \ud83c\udf89",section:"Projects",handler:()=>{window.location.href="/projects/9_project/"}},{id:"socials-email",title:"Send email",section:"Socials",handler:()=>{window.open("mailto:%79%75%74%6F%6E%67%63%68%65%6E%67@%76%74.%65%64%75","_blank")}},{id:"socials-orcid",title:"ORCID",section:"Socials",handler:()=>{window.open("https://orcid.org/0009-0003-8641-8079","_blank")}},{id:"socials-google-scholar",title:"Google Scholar",section:"Socials",handler:()=>{window.open("https://scholar.google.com/citations?user=I9ohkXkAAAAJ","_blank")}},{id:"socials-github",title:"GitHub",section:"Socials",handler:()=>{window.open("https://github.com/ccsnow127","_blank")}},{id:"socials-linkedin",title:"LinkedIn",section:"Socials",handler:()=>{window.open("https://www.linkedin.com/in/yutong-cheng-ccsnow","_blank")}},{id:"socials-instagram",title:"Instagram",section:"Socials",handler:()=>{window.open("https://instagram.com/cicisnow5","_blank")}},{id:"light-theme",title:"Change theme to light",description:"Change the theme of the site to Light",section:"Theme",handler:()=>{setThemeSetting("light")}},{id:"dark-theme",title:"Change theme to dark",description:"Change the theme of the site to Dark",section:"Theme",handler:()=>{setThemeSetting("dark")}},{id:"system-theme",title:"Use system default theme",description:"Change the theme of the site to System Default",section:"Theme",handler:()=>{setThemeSetting("system")}}];</script> <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script> </body> </html>
