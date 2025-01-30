@@ -29,37 +29,16 @@ concurrency:
 jobs:
   # Build job
   build:
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ ubuntu-20.04, ubuntu-22.04, ubuntu-24.04, ubuntu-22.04-arm, ubuntu-24.04-arm, macos-13, macos-14 ]
-        ruby: [truffleruby-24.1.2, truffleruby+graalvm-24.1.2]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set platform
-        id: platform
-        run: |
-          platform=${{ matrix.os }}
-          platform=${platform/macos-13/macos-latest}
-          platform=${platform/macos-14/macos-13-arm64}
-          platform=${platform/%-arm/-arm64}
-          echo "platform=$platform" >> $GITHUB_OUTPUT
       - name: Setup Ruby
-        # uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
-        # with:
-        #   ruby-version: '3.1' # Not needed with a .ruby-version file
-        #   bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-        #   cache-version: 0 # Increment this number if you need to re-download cached gems
-        id: ruby
-        run: |
-          ruby=${{ matrix.ruby }}
-          if [[ "$ruby" == [0-9]* ]]; then
-            ruby="ruby-$ruby"
-          fi
-          echo "ruby=$ruby" >> $GITHUB_OUTPUT
-          echo "archive=$ruby-${{ steps.platform.outputs.platform }}.tar.gz" >> $GITHUB_OUTPUT
+        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+        with:
+          ruby-version: '3.1' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
