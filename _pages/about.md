@@ -6,7 +6,7 @@ subtitle: Ph.D. candidate @<a href='https://www.vt.edu/'>Virginia Tech</a>, <a h
 
 profile:
   align: right
-  image: Pieta.png
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Gilbert Place 4112</p>
