@@ -312,8 +312,8 @@ display_categories: ["tutorial", "principles", "tool"] # these categories will b
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Cheng]
+  first_name: [Yutong]
 
   style: apa
   locale: en
