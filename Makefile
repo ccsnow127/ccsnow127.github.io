@@ -13,4 +13,4 @@ msg:
 	git push
 
 local:
-	docker compose up --build
+	bundle exec jekyll serve
