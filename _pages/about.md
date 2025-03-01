@@ -21,8 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 #### About Me
 
-I am a Ph.D. candidate of Computer Science at Virginia Tech, advised by Prof. Peng Gao. I received my B.Eng. in Software Engineering from Beijing Jiaotong University. 
-<!-- My research mainly focuses on the application and customization of LLMs into knowledge-intensive and complex applications in security and software engineering.  -->
+I am a second-year Ph.D. student in Computer Science at Virginia Tech, advised by Prof. Peng Gao. I received my B.Eng. in Software Engineering from Beijing Jiaotong University.
 My research mainly focuses on the following topics:
 
 - `Automated and AI-assisted security operations (SecOps)`
