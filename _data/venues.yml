@@ -2,16 +2,11 @@
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
 
-"FSE-23":
+"FSE 2023":
   url: "https://conf.researchr.org/home/fse-2023"
 
-"SSE-24":
-  url: "https://www.computer.org/csdl/proceedings/sse/2024/20l5zvWSqGs"
-
-"EuroS&P-25":
+"Euro S&P 2025":
   url: "https://eurosp2025.ieee-security.org/"
 
 "Vision":
