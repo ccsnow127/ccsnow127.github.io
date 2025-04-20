@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 #### About Me
 
-I am a second-year Ph.D. student in the Department of Computer Science at Virginia Tech, advised by Prof. Peng Gao. I received my B.Eng. in Software Engineering from Beijing Jiaotong University.
+I am a Ph.D. candidate in the Department of Computer Science at Virginia Tech, advised by Prof. Peng Gao. I received my B.Eng. in Software Engineering from Beijing Jiaotong University.
 My research mainly focuses on the following topics:
 
 - `Automated and AI-assisted security operations (SecOps)`
