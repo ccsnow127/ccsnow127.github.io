@@ -25,14 +25,15 @@ I am a Ph.D. candidate in the Department of Computer Science at Virginia Tech, a
 My research mainly focuses on the following topics:
 
 - `Automated and AI-assisted security operations (SecOps)`
-- `LLM/MLLM specialization and customization` 
-- `Agentic planning, reasoning, and learning` 
+- `CTI-Augmented Security Defense and Operations` 
+- `AI-Driven Software Testing and Program Analysis` 
 
 #### Education & Experience
 
 - Ph.D. in Computer Science, Virginia Tech, <u>01/2024-present</u>
-- Research intern at <a href='https://llama.family/'>Llama Family</a>, Beijing, <u>09/2023-12/2023</u>
-- Research intern at <a href='https://www.atomecho.cn/'>AtomEcho</a>, Beijing, <u>6/2023-09/2023</u>
-- Research assistant, Chinese University of Hong Kong, <u>9/2022-06/2023</u>
+- Algorithm development intern at <a href='https://metagpt.ai/'>MetaGPT</a>, Beijing, <u>06/2024-09/2024</u>
+<!-- - Research intern at <a href='https://llama.family/'>Llama Family</a>, Beijing, <u>09/2023-12/2023</u> -->
+- Algorithm development intern at <a href='https://www.atomecho.cn/'>AtomEcho</a>, Beijing, <u>6/2023-12/2023</u>
+<!-- - Research assistant, Chinese University of Hong Kong, <u>9/2022-06/2023</u> -->
 - Backend development intern, <a href='https://www.yuewen.com/'>Yuewen Group, Tencent</a>, Beijing, <u>6/2020-9/2020</u>
 - B.Eng. in Software Engineering, Beijing Jiaotong University, <u>9/2018-6/2022</u>
