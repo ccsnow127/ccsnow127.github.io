@@ -783,6 +783,21 @@ footer.sticky-bottom {
         }
       }
 
+      .highlight-note {
+        color: #2563eb;
+        // font-weight: 600;
+        position: relative;
+        padding-left: 1rem;
+
+        &::before {
+          content: "•";
+          color: #2563eb;
+          font-weight: bold;
+          position: absolute;
+          left: 0;
+        }
+      }
+
       .hidden {
         font-size: 0.875rem;
         max-height: 0px;
