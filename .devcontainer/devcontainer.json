@@ -26,5 +26,8 @@
     }
   },
 
+  // Publish ports so the site is reachable without VS Code port forwarding
+  "runArgs": ["-p", "8080:8080", "-p", "35729:35729"],
+
   "remoteUser": "vscode"
 }

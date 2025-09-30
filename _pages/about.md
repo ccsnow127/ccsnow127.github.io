@@ -24,7 +24,8 @@ social: true # includes social icons at the bottom of the page
 I am a Ph.D. candidate in the Department of Computer Science at Virginia Tech, advised by Prof. Peng Gao. I received my B.Eng. in Software Engineering from Beijing Jiaotong University.
 My research mainly focuses on the following topics:
 
-- `Automated and AI-assisted security operations (SecOps)`
+<!-- - `Automated and AI-assisted security operations (SecOps)` -->
+
 - `CTI-Augmented Security Defense and Operations` 
 - `AI-Driven Software Testing and Program Analysis` 
 
