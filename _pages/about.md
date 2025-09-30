@@ -28,7 +28,7 @@ My research focuses on:
 <!-- - `Automated and AI-assisted security operations (SecOps)` -->
 - `AI Agent Security`
 <!-- - `CTI-Augmented Security Operations`  -->
-- `AI-Driven SOC Automation`
+- `AI-Driven Security Operation`
 <!-- - `AI-Driven Software Analysis`  -->
 
 #### Internships & Experience
