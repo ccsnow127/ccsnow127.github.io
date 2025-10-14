@@ -26,7 +26,7 @@ I am a Ph.D. candidate in the Department of Computer Science at Virginia Tech, a
 My research focuses on:
 
 <!-- - `Automated and AI-assisted security operations (SecOps)` -->
-- `AI Agent Security`
+- `AI Agent Security` 
 <!-- - `CTI-Augmented Security Operations`  -->
 - `AI-Driven Security Operation`
 <!-- - `AI-Driven Software Analysis`  -->
