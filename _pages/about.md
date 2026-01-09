@@ -30,7 +30,7 @@ My research focuses on:
 <!-- - `CTI-Augmented Security Operations`  -->
 - `AI-Driven Security Operations (AISecOps)`
 <!-- - `AI-Driven Software Analysis`  -->
-ma
+
 #### Internships & Experience
 
 <!-- - Ph.D. in Computer Science, Virginia Tech, <u>01/2024-present</u> -->
