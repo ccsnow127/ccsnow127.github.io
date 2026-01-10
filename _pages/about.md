@@ -36,5 +36,5 @@ My research focuses on:
 <!-- - Ph.D. in Computer Science, Virginia Tech, <u>01/2024-present</u> -->
 - Research intern, <a href='https://www.nec-labs.com/'>NEC Laboratories America, Inc.</a>, advised by Dr. <a href='https://chengw07.github.io/'>Wei Cheng</a>, Princeton, NJ, <u>01/2026-present</u>
 - Research intern, <a href='https://www.deepwisdom.ai/'>DeepWisdom</a>, Remote, <u>10/2024-12/2024</u>
-- AI engineer intern, <a href='https://www.atomecho.cn/'>AtomEcho</a>, Beijing, <u>6/2023-12/2023</u>
+- ML engineer intern, <a href='https://www.atomecho.cn/'>AtomEcho</a>, Beijing, <u>6/2023-12/2023</u>
 - Software engineer intern, <a href='https://www.yuewen.com/'>Yuewen Group, Tencent</a>, Beijing, <u>6/2020-9/2020</u>
