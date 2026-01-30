@@ -15,7 +15,7 @@ profile:
     # <p>Virginia Tech</p>
     # <p>Blacksburg, VA 24060</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
@@ -38,3 +38,14 @@ My research focuses on:
 - Research intern, <a href='https://www.deepwisdom.ai/'>DeepWisdom</a>, Remote, <u>10/2024-12/2024</u>
 - ML engineer intern, <a href='https://www.atomecho.cn/'>AtomEcho</a>, Beijing, <u>6/2023-12/2023</u>
 - Software engineer intern, <a href='https://www.yuewen.com/'>Yuewen Group, Tencent</a>, Beijing, <u>6/2020-9/2020</u>
+
+#### Awards
+
+- 2025 CCI SWVA Cyber Innovation Scholarship.
+- 2024 CCI SWVA Cyber Innovation Scholarship.
+- 2024 Bitshares Fellowship.
+
+#### Services
+
+- Reviewer, ICML 2026.
+- Student Organizer, 2024 DMV Security Workshop.
