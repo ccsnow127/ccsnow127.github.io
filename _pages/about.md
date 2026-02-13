@@ -23,13 +23,11 @@ social: true # includes social icons at the bottom of the page
 #### About Me
 
 I am a Ph.D. candidate in the Department of Computer Science at Virginia Tech, advised by Prof. <a href='https://people.cs.vt.edu/penggao/'>Peng Gao</a>. I received my B.Eng. in Software Engineering from BJTU.
-My research focuses on:
+My research interests lie in inference-time scaling and in-context learning for LLMs, particularly in the software engineering and security domains. Broadly, my research focuses on:
 
-<!-- - `Automated and AI-assisted security operations (SecOps)` -->
-- `Agentic Security` 
-<!-- - `CTI-Augmented Security Operations`  -->
-- `AI-Driven Security Operations (AISecOps)`
-<!-- - `AI-Driven Software Analysis`  -->
+- Coding Intelligence (Code Generation, Testing, Translation, ...)
+- Agentic Security
+- AI-Driven Security Operations
 
 #### Internships & Experience
 
