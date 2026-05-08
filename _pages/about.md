@@ -24,8 +24,7 @@ social: true # includes social icons at the bottom of the page
 
 I am a Ph.D. candidate in the Department of Computer Science at Virginia Tech, advised by Prof. <a href='https://people.cs.vt.edu/penggao/'>Peng Gao</a>.
 
-I build `vertical AI agents` for **coding** and **security** by engineering 
-all three layers of the harness:
+I build `vertical AI agents` for **coding** and **security** by engineering three layers of the harness:
 - `Context Engineering` distills large-scale, domain-specific knowledge corpora into structured, retrievable substrates surfaced to agents on demand.
 - `Inference-Time Scaling` deepens agent reasoning through guided search and execution-grounded feedback.
 - `Agent Workflow Design` orchestrates tool use within sandboxed environments to form closed-loop, self-improving systems.
