@@ -40,6 +40,7 @@ I build `vertical AI agents` for **coding** and **security** by engineering thre
 
 #### Awards
 
+- 2026 ICML Golden Reviewer Award.
 - 2025 CCI SWVA Cyber Innovation Scholarship.
 - 2024 CCI SWVA Cyber Innovation Scholarship.
 - 2024 Bitshares Fellowship.
