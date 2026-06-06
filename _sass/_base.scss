@@ -766,6 +766,16 @@ footer.sticky-bottom {
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
+        .pepy-badge {
+          display: inline-block;
+          vertical-align: middle;
+          margin-left: 0.5rem;
+
+          img {
+            height: 1.55rem;
+            vertical-align: middle;
+          }
+        }
       }
 
       .badges {
@@ -795,6 +805,15 @@ footer.sticky-bottom {
           font-weight: bold;
           position: absolute;
           left: 0;
+        }
+
+        a {
+          color: inherit;
+          text-decoration: underline;
+        }
+
+        & + .highlight-note {
+          margin-top: 0.15rem;
         }
       }
 
