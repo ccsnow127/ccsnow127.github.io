@@ -22,21 +22,19 @@ social: true # includes social icons at the bottom of the page
 
 #### About Me
 
-I am a Ph.D. candidate in the Department of Computer Science at Virginia Tech.
-
-I build `vertical AI agents` for **coding** and **security** by engineering three layers of the harness:
-- `Context Engineering` distills large-scale, domain-specific knowledge corpora into structured, retrievable substrates surfaced to agents on demand.
-- `Inference-Time Scaling` deepens agent reasoning through guided search and execution-grounded feedback.
-- `Agent Workflow Design` orchestrates tool use within sandboxed environments to form closed-loop, self-improving systems.
+Hi, I'm CiCi! I build self-evolving, continual-learning agents for long-horizon, open-ended tasks. My research focuses on:
+- `Code-as-harness` — framing harness evolution as a coding task, so agents self-improve by writing and rewriting their own harness as code.
+- `Agent memory and retrieval` — accumulating and surfacing past experience so agents learn continually instead of starting fresh on every task.
+- `Inference-time scaling` — deepening reasoning through guided search and execution-grounded feedback.
 
 
 
 #### Internships & Experience
 
 <!-- - Ph.D. in Computer Science, Virginia Tech, <u>01/2024-present</u> -->
-- Research intern, <a href='https://www.nec-labs.com/'>NEC Laboratories America, Inc.</a>, advised by Dr. <a href='https://chengw07.github.io/'>Wei Cheng</a>, Princeton, NJ, <u>05/2026-present</u>, building end-to-end long-horizon programming agent with self-evolving harness and memory.
-- Research intern, <a href='https://www.nec-labs.com/'>NEC Laboratories America, Inc.</a>, advised by Dr. <a href='https://chengw07.github.io/'>Wei Cheng</a>, Princeton, NJ, <u>01/2026-3/2026</u>, working on inference-time scaling for code documentation and test generation with execution feedback.
-- Research intern, <a href='https://www.deepwisdom.ai/'>DeepWisdom</a>, Remote, <u>10/2024-12/2024</u>, working on testing LLM-generated software with static and dynamic analysis in sandboxed environments.
+- Research intern, <a href='https://www.nec-labs.com/'>NEC Laboratories America</a>, advised by Dr. <a href='https://sites.google.com/site/weichengunc/welcome-to-wei-chengs-homepage'>Wei Cheng</a>, <u>05/2026-present</u>, building end-to-end long-horizon programming agent with self-evolving harness and memory.
+- Research intern, <a href='https://www.nec-labs.com/'>NEC Laboratories America</a>, advised by Dr. <a href='https://sites.google.com/site/weichengunc/welcome-to-wei-chengs-homepage'>Wei Cheng</a>, <u>01/2026-3/2026</u>, working on inference-time scaling for code documentation and test generation with execution feedback.
+- Research intern, <a href='https://www.deepwisdom.ai/'>DeepWisdom</a>, <u>10/2024-12/2024</u>, working on testing LLM-generated software with static and dynamic analysis in sandboxed environments.
 
 #### Awards
 
