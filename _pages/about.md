@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 
 #### About Me
 
-I am a Ph.D. candidate in the Department of Computer Science at Virginia Tech, advised by Prof. <a href='https://people.cs.vt.edu/penggao/'>Peng Gao</a>.
+I am a Ph.D. candidate in the Department of Computer Science at Virginia Tech.
 
 I build `vertical AI agents` for **coding** and **security** by engineering three layers of the harness:
 - `Context Engineering` distills large-scale, domain-specific knowledge corpora into structured, retrievable substrates surfaced to agents on demand.
