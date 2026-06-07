@@ -24,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi, I'm CiCi! I build self-evolving, continual-learning agents for long-horizon, open-ended tasks. My research focuses on:
 - `Code-as-harness` — framing harness evolution as a coding task, so agents self-improve by writing and rewriting their own harness as code.
-- `Agent memory and retrieval` — accumulating and surfacing past experience so agents learn continually instead of starting fresh on every task.
+- `Agent memory and retrieval` — a self-organizing substrate where structure, importance, and connection emerge over time, surfaced on demand.
 - `Inference-time scaling` — deepening reasoning through guided search and execution-grounded feedback.
 
 
