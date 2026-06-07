@@ -34,7 +34,7 @@ Hi, I'm CiCi! I build self-evolving, continual-learning agents for long-horizon,
 <!-- - Ph.D. in Computer Science, Virginia Tech, <u>01/2024-present</u> -->
 - Research intern, <a href='https://www.nec-labs.com/'>NEC Laboratories America</a>, advised by Dr. <a href='https://sites.google.com/site/weichengunc/welcome-to-wei-chengs-homepage'>Wei Cheng</a>, <u>05/2026-present</u>, building end-to-end long-horizon programming agent with self-evolving harness and memory.
 - Research intern, <a href='https://www.nec-labs.com/'>NEC Laboratories America</a>, advised by Dr. <a href='https://sites.google.com/site/weichengunc/welcome-to-wei-chengs-homepage'>Wei Cheng</a>, <u>01/2026-3/2026</u>, working on inference-time scaling for code documentation and test generation with execution feedback.
-- Research intern, <a href='https://www.deepwisdom.ai/'>DeepWisdom</a>, <u>10/2024-12/2024</u>, working on testing LLM-generated software with static and dynamic analysis in sandboxed environments.
+- Research intern, <a href='https://atoms.dev/metagpt'>MetaGPT (Atoms.dev)</a>, <u>10/2024-12/2024</u>, working on testing LLM-generated software with static and dynamic analysis in sandboxed environments.
 
 #### Awards
 
