@@ -38,6 +38,7 @@ Hi, I'm CiCi! I build self-evolving, continual-learning agents for long-horizon,
 
 #### Awards
 
+- 2026 Future Leaders of AI Doctoral Consortium, ACM AI Leadership Summit
 - 2026 ICML Golden Reviewer Award.
 - 2025 CCI SWVA Cyber Innovation Scholarship.
 - 2024 CCI SWVA Cyber Innovation Scholarship.

@@ -7,4 +7,4 @@ update:
 	git push
 
 local:
-	npx -y @devcontainers/cli@latest up --workspace-folder /Users/CiCi/Project/ccsnow127.github.io
+	npx -y @devcontainers/cli@latest up --workspace-folder $(CURDIR)
