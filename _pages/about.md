@@ -23,10 +23,10 @@ social: true # includes social icons at the bottom of the page
 #### About Me
 
 Hi, I'm CiCi! I build self-evolving, continual-learning agents for long-horizon, open-ended tasks. My research focuses on:
-- `Code-as-harness` — framing harness evolution as a coding task, so agents self-improve by writing and rewriting their own harness as code.
-- `Agent memory and retrieval` — building long-term memory as self-organizing structure that links, consolidates, and ranks experience into reusable knowledge.
-- `Test-time optimization` — task-time adaptation by selecting among rollouts guided by execution-grounded verification.
 
+- `Test-Time Optimization`: task-time adaptation through inference-time search and RL algorithms over the rollout space.
+- `Code World Model`: tranlsating environment and trajectories into a formal, executable world model represented as code, serves as a verifiable simulation engine for high-performance reasoning and planning.
+- `Coding Intelligence`: software engineering tasks that left unsolved by existing coding agents, such as legacy codebase understanding and migration, testing generation, and code documentation, etc.
 
 
 #### Internships & Experience
@@ -38,7 +38,7 @@ Hi, I'm CiCi! I build self-evolving, continual-learning agents for long-horizon,
 
 #### Awards
 
-- 2026 Future Leaders of AI Doctoral Consortium, ACM AI Leadership Summit
+- 2026 Future Leaders of AI, Doctoral Consortium of ACM AI Leadership Summit
 - 2026 ICML Golden Reviewer Award.
 - 2025 CCI SWVA Cyber Innovation Scholarship.
 - 2024 CCI SWVA Cyber Innovation Scholarship.
