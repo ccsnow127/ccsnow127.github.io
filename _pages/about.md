@@ -21,20 +21,22 @@ social: true # includes social icons at the bottom of the page
 ---
 
 #### About Me
+Hi, I'm CiCi! Thanks for visiting my homepage.
+I'm enthusiastic about coding intelligence and agents.
 
-Hi, I'm CiCi! I build self-evolving, continual-learning agents for long-horizon, open-ended tasks. My research focuses on:
+> *As coding agents grow wilder by the day, one can't help but wonder: beyond characters and pixels, could code be the right modality for machines to understand and reason about their environment?*
 
+My current interests linger especially on modeling real-world task environments as executable code — enabling agents to perceive, understand, and plan within a machine-friendly, hallucination-free, and adaptable framework.
+Specifically, my research circles around three pillars:
+
+- `Code World Model`: translating environments and trajectories into formal, executable world models represented as code, serving as a verifiable simulation engine for high-performance reasoning and planning.
 - `Test-Time Optimization`: task-time adaptation through inference-time search and RL algorithms over the rollout space.
-- `Code World Model`: tranlsating environment and trajectories into a formal, executable world model represented as code, serves as a verifiable simulation engine for high-performance reasoning and planning.
-- `Coding Intelligence`: software engineering tasks that left unsolved by existing coding agents, such as legacy codebase understanding and migration, testing generation, and code documentation, etc.
-
+- `Coding Intelligence`: software engineering tasks left unsolved by today's coding agents, e.g., legacy codebase understanding and migration, test generation, code documentation, and beyond.
 
 #### Internships & Experience
-
-<!-- - Ph.D. in Computer Science, Virginia Tech, <u>01/2024-present</u> -->
-- Research intern, <a href='https://www.nec-labs.com/'>NEC Laboratories America</a>, advised by Dr. <a href='https://sites.google.com/site/weichengunc/welcome-to-wei-chengs-homepage'>Wei Cheng</a>, <u>05/2026-present</u>, building end-to-end long-horizon programming agent with self-evolving harness and memory.
-- Research intern, <a href='https://www.nec-labs.com/'>NEC Laboratories America</a>, advised by Dr. <a href='https://sites.google.com/site/weichengunc/welcome-to-wei-chengs-homepage'>Wei Cheng</a>, <u>01/2026-3/2026</u>, working on inference-time scaling for code documentation and test generation with execution feedback.
-- Research intern, <a href='https://atoms.dev/metagpt'>MetaGPT (Atoms.dev)</a>, <u>10/2024-12/2024</u>, working on testing LLM-generated software with static and dynamic analysis in sandboxed environments.
+- Research intern, [NEC Laboratories America](https://www.nec-labs.com/), advised by Dr. [Wei Cheng](https://sites.google.com/site/weichengunc/welcome-to-wei-chengs-homepage), <u>05/2026–present</u>, working on multi-objective quality–diversity optimization for test suite generation — higher quality at a smaller footprint.
+- Research intern, [NEC Laboratories America](https://www.nec-labs.com/), advised by Dr. [Wei Cheng](https://sites.google.com/site/weichengunc/welcome-to-wei-chengs-homepage), <u>01/2026–03/2026</u>, working on inference-time tree search to optimize code documentation for agent-oriented code reimplementation and migration.
+- Research intern, [MetaGPT (Atoms.dev)](https://atoms.dev/metagpt), <u>10/2024–12/2024</u>, working on testing LLM-generated software via static and dynamic analysis in sandboxed environments.
 
 #### Awards
 
