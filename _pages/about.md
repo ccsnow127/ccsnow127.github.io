@@ -48,5 +48,6 @@ Specifically, my research circles around three pillars:
 
 #### Services
 
+- Program Committee, AAAI 2027.
 - Reviewer, ICML 2026, NeurIPS 2026, COLM 2026.
 - Student Organizer, 2024 DMV Security Workshop.
