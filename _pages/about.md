@@ -40,7 +40,7 @@ Specifically, my research circles around three pillars:
 
 #### Awards
 
-- 2026 Future Leaders of AI, Doctoral Consortium of ACM AI Leadership Summit
+- 2026 Future Leaders of AI, [ACM AI Leadership Summit](https://aisummit.acm.org/).
 - 2026 ICML Golden Reviewer Award.
 - 2025 CCI SWVA Cyber Innovation Scholarship.
 - 2024 CCI SWVA Cyber Innovation Scholarship.
