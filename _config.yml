@@ -133,7 +133,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: CiCi's Blog # blog_name will be displayed in your blog page
-blog_description: Good Things Take Time
+blog_description: What I cannot build. I do not understand.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -304,8 +304,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["study-with-me"] # these tags will be displayed on the front page of your blog
-display_categories: ["MCTS"] # these categories will be displayed on the front page of your blog
+display_tags: [] # these tags will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
