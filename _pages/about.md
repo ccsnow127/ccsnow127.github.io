@@ -61,4 +61,4 @@ Specifically, my research circles around three pillars:
 
 #### Resources
 
-* [awesome-world-models](https://github.com/DifractAI/awesome-world-models) — a curated reading list on world models for embodied AI, tracing the generative and action-centric schools across foundation architectures, video and latent models, 3D scene generation, VLA models, simulators, and benchmarks.
+* [awesome-world-models](https://github.com/DifractAI/awesome-world-models) — a curated reading list on world models for embodied AI, tracing the generative and action-centric schools across foundation architectures, video and latent models, 3D scene generation, VLA models, simulators, and benchmarks. <a href="https://awesome.re" class="awesome-badge" role="button" target="_blank" rel="noopener noreferrer" aria-label="Awesome list"><img src="{{ '/assets/img/awesome-badge.svg' | relative_url }}" alt="Awesome" loading="lazy"></a>
