@@ -34,7 +34,12 @@
 
         mermaid.initialize({ theme: mermaidTheme });
 
-        /* Zoomable mermaid diagrams */
+        /* Zoomable mermaid diagrams.
+           d3.zoom()'s default filter lets every wheel event through, so scrolling the page
+           with the cursor over a diagram zooms the diagram instead of scrolling, and leaves
+           it stuck in a panned/zoomed state that clips at the viewBox on both sides.
+           Wheel-zoom is therefore gated behind ctrl/cmd (the usual embedded-map convention);
+           drag still pans, and double-click resets the transform. */
         if (typeof d3 !== 'undefined') {
           window.addEventListener('load', function () {
             var svgs = d3.selectAll('.mermaid svg');
@@ -42,10 +47,25 @@
               var svg = d3.select(this);
               svg.html('<g>' + svg.html() + '</g>');
               var inner = svg.select('g');
-              var zoom = d3.zoom().on('zoom', function (event) {
-                inner.attr('transform', event.transform);
-              });
+              var zoom = d3
+                .zoom()
+                /* d3 multiplies wheel delta by 10 when ctrlKey is set (trackpad pinch
+                   semantics), so a single mouse notch would otherwise jump ~28x. */
+                .scaleExtent([0.5, 8])
+                .filter(function (event) {
+                  /* let the page scroll unless the user explicitly asks to zoom */
+                  if (event.type === 'wheel') return event.ctrlKey || event.metaKey;
+                  return !event.button;
+                })
+                .on('zoom', function (event) {
+                  inner.attr('transform', event.transform);
+                });
               svg.call(zoom);
+              /* replace d3's dblclick-to-zoom with dblclick-to-reset */
+              svg.on('dblclick.zoom', null);
+              svg.on('dblclick', function () {
+                svg.transition().duration(200).call(zoom.transform, d3.zoomIdentity);
+              });
             });
           });
         }
