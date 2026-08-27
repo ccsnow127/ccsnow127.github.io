@@ -169,4 +169,6 @@ What it leaves open is a clean list, and every item on it is an experiment rathe
 
 Nothing about the paper's thesis is refuted by its lack of evidence. But nothing is established either, and the gap between those two is where the next year of this line of work sits.
 
+**Background:** [Where the Condition Enters]({% post_url 2026-08-27-where-the-condition-enters %}) walks through the five papers underneath every current video model — including what an injection site is, and why §3 above is an argument rather than a detail.
+
 **Related:** [The Frame Is Not the World]({% post_url 2026-08-26-the-frame-is-not-the-world %}) on the benchmark that measures persistence and the model that argued for this thesis without building it · [Show, Don't Tell]({% post_url 2026-08-25-show-dont-tell %}) on another paper whose real contribution turned out to be an interface rather than a model · [Two Schools of World Models]({% post_url 2026-08-20-two-schools-of-world-models %}) for where this sits in the landscape.
