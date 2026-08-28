@@ -41,7 +41,7 @@ Specifically, my research circles around three pillars:
 
 #### Awards
 
-* 2026 Future Leaders of AI, ACM AI Leadership Summit.
+* 2026 [Future Leaders of AI](https://aisummit.acm.org/future-leaders), ACM AI Leadership Summit.
 
 * 2026 ICML Golden Reviewer Award.
 
