@@ -21,19 +21,17 @@ social: true # includes social icons at the bottom of the page
 ---
 #### About Me
 
-Hi, I'm `CiCi`! Thanks for visiting my homepage.
-&#x20;My current interests linger especially on modeling real-world task environments as executable code — enabling agents to perceive, understand, and plan within a machine-friendly, hallucination-free, and adaptable framework.
-Specifically, my research circles around three pillars:
+Hi, I'm `CiCi`! I am a Computer Science PhD student at Virginia Tech. My research treats code as the representation in which intelligence can be executed, verified, and improved. I believe `coding intelligence opens the last mile toward AGI`: recursive self-improvement and world-model control can both be achieved via coding agents and their maintained artifacts. Specifically, my research circles around three pillars:
 
-* `Code World Model`: translating environments and trajectories into formal, executable world models represented as code, serving as a verifiable simulation engine for high-performance reasoning and planning.
+* `Recursive Self-Improvement`: <u>agents that improve from their own trajectories and interactions.</u> At the system level, the harness, tools, and memory are formulated as programs and evolved as coding tasks; at the model level, the policy is fine-tuned on execution-verified rollouts, distilling inference-time search into the weights.
 
-* `Coding Intelligence`: software engineering tasks left unsolved by today's coding agents, e.g., legacy codebase understanding and migration, test generation, code documentation, and beyond.
+* `Inference-Time Scaling`: <u>trading test-time compute for capability.</u> The agent searches over program edits and rollouts under verifiers grounded in execution, and the resulting feedback serves as a scalable reward signal for both search and RL.
 
-* `Test-Time Optimization`: task-time adaptation through inference-time search and RL algorithms over the rollout space.
+* `Code World Model`: <u>code as the state management for environments and agents.</u> Environments, trajectories, and agent states are represented as executable programs, casting planning as search within a verifiable simulator, toward worlds that are persistent, open-ended, and continuously improved.
 
 #### Internships & Experience
 
-* Research intern, [NEC Laboratories America](https://www.nec-labs.com/), advised by Dr. [Wei Cheng](https://sites.google.com/site/weichengunc/welcome-to-wei-chengs-homepage), <u>05/2026–present</u>, working on multi-objective quality–diversity optimization for test suite generation — higher quality at a smaller footprint.
+* Research intern, [NEC Laboratories America](https://www.nec-labs.com/), advised by Dr. [Wei Cheng](https://sites.google.com/site/weichengunc/welcome-to-wei-chengs-homepage), <u>05/2026–08/2026</u>, working on multi-objective quality–diversity optimization of compact test suites that act as behavioral gates for self-evolving agents rewriting their own harness.
 
 * Research intern, [NEC Laboratories America](https://www.nec-labs.com/), advised by Dr. [Wei Cheng](https://sites.google.com/site/weichengunc/welcome-to-wei-chengs-homepage), <u>01/2026–03/2026</u>, working on inference-time tree search to optimize code documentation for agent-oriented code reimplementation and migration.
 
